@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-family: monospace;
+}
+
+#game {
+    width: 700px;
+    max-width: 95vw;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#battle-box {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    border: 4px solid #fff;
+    background: #000;
+}
+
+#soul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: red;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+
+#status {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px;
+    font-family: monospace;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
